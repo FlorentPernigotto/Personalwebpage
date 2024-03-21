@@ -1,0 +1,35 @@
+
+
+
+.content-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.biographie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.work {
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+
+.folio {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px
+}
+
+.hidden {
+    display: none;
+}
