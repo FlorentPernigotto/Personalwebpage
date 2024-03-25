@@ -324,9 +324,8 @@ nav a:hover::before {
 
 
 .first-content {
-	padding: 100px;
 	text-align: left;
-	padding-top: 13%;
+	padding-top: 10%;
 }
 
 .first-content .author-image img {
