@@ -1,6 +1,4 @@
 
-
-
 .content-bio {
     display: flex;
     flex-direction: column;
@@ -28,4 +26,20 @@
     display: flex;
     flex-wrap: wrap;
     gap : 20px
+}
+
+.social-banner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.social-banner li {
+    display: flex;
+    width: 20%;
+}
+
+.social-banner li a{
+    display: flex;
+    width: 20%;
 }

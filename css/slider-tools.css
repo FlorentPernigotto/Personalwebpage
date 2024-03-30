@@ -5,29 +5,23 @@ body, html {
 }
 .slider {
     display: flex;
+    flex-direction: column;
     width: 100%;
+    gap: 20px;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
-.slider-inner {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    gap: 30px;
-    /* Animation and transition will be controlled by JavaScript */
+.content-bio{padding-left: 10%;
 }
-.slider-inner a {
-    flex: 0 0 auto;
+.content-cv {
+    padding: 5px;
 }
-.slider-inner img {
-    width: 70px; /* Adjust size as needed */
-    margin-left: 10px; /* Space between images */
-}
-
-
 .image-slider-tool {
     width: 100px;
     height: 100px;
+}
+.pdf-button{
+    width: 150px;
+    height: 50px;
 }
